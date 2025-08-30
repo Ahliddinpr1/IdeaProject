@@ -1,7 +1,7 @@
 "use client";
 import axios from "axios";
 import { useEffect, useState } from "react";
-let api = "http://localhost:3000";
+let api = "http://localhost:4000";
 
 export default function Courses() {
   const [filteredCourses, setFilteredCourses] = useState([]);
@@ -129,7 +129,7 @@ export default function Courses() {
               setFilterSubcategory("");
               setFilterCity("");
               setFilterPrice(2000);
-              setFilteredCourses(courses); // сбрасываем фильтры и возвращаем все курсы
+              setFilteredCourses(courses);
             }}
             className="bg-green-500 text-white px-4 py-2 rounded-xl hover:bg-green-600 transition"
           >

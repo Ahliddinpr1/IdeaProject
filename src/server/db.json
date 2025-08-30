@@ -116,11 +116,76 @@
       "website": "https://profitgym.tj/",
       "price": 250,
       "priceType": "month"
+    },
+    {
+      "id": 10,
+      "name": "Tajik IT Academy",
+      "category": "Study",
+      "subcategory": "Programming",
+      "city": "Душанбе",
+      "description": "Академия для изучения современных IT-технологий",
+      "location": "г.Душанбе, ул. Рудаки 45",
+      "contact": 900112233,
+      "website": "https://tajikitacademy.tj/",
+      "price": 750,
+      "priceType": "month"
+    },
+    {
+      "id": 11,
+      "name": "English Plus",
+      "category": "Study",
+      "subcategory": "English",
+      "city": "Худжанд",
+      "description": "Школа английского языка для подростков и взрослых",
+      "location": "г.Худжанд, проспект И.Сомони 12",
+      "contact": 912334455,
+      "website": "https://englishplus.tj/",
+      "price": 450,
+      "priceType": "month"
+    },
+    {
+      "id": 12,
+      "name": "Business Pro Academy",
+      "category": "Study",
+      "subcategory": "Business",
+      "city": "Бохтар",
+      "description": "Курсы по предпринимательству и управлению бизнесом",
+      "location": "г.Бохтар, ул. Навои 18",
+      "contact": 911223344,
+      "website": "https://businesspro.tj/",
+      "price": 800,
+      "priceType": "month"
+    },
+    {
+      "id": 13,
+      "name": "Art & Design School",
+      "category": "Study",
+      "subcategory": "Design",
+      "city": "Душанбе",
+      "description": "Школа современного дизайна и графики",
+      "location": "г.Душанбе, ул. Садриддина Айни 20",
+      "contact": 933112244,
+      "website": "https://artdesign.tj/",
+      "price": 600,
+      "priceType": "month"
+    },
+    {
+      "id": 14,
+      "name": "Coding Kids",
+      "category": "Study",
+      "subcategory": "Programming",
+      "city": "Худжанд",
+      "description": "Курсы программирования для детей 7-14 лет",
+      "location": "г.Худжанд, ул. Ленина 33",
+      "contact": 922334411,
+      "website": "https://codingkids.tj/",
+      "price": 400,
+      "priceType": "month"
     }
   ],
   "categories": [
-    { "id": 1, "name": "Study" },
-    { "id": 2, "name": "Sport" }
+    { "id": 1, "name": "Study", "description": "Образовательные курсы и тренинги" },
+    { "id": 2, "name": "Sport", "description": "Спортивные секции и фитнес клубы" }
   ],
   "subcategories": [
     { "id": 1, "name": "Programming" },
