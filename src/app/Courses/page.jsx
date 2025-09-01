@@ -1,7 +1,7 @@
 "use client";
 import axios from "axios";
 import { useEffect, useState } from "react";
-let api = "http://localhost:4000";
+let api = "http://localhost:3000";
 
 export default function Courses() {
   const [filteredCourses, setFilteredCourses] = useState([]);
@@ -59,7 +59,7 @@ export default function Courses() {
   }
 
   return (
-    <section className="min-h-screen bg-gray-100 p-8 flex items-start justify-between">
+    <section className="min-h-screen bg-gray-100 p-8 flex flex-col lg:flex-row gap-10 items-start justify-between">
       <aside>
         <form
           onSubmit={handleFilter}
